@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: rgb(236, 235, 235);
+    font-family: 'Caveat';
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.generate {
+    width: 10em;
+    height: 4em;
+    box-shadow: 5px 5px 20px rgb(9, 50, 75);
+    background-color: rgb(80, 206, 255);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-family: 'Caveat';
+    font-size: 30px;
+}
+
+.generate:hover {
+    background-color: rgb(21, 153, 206);
+}
+
+.title {
+    font-size: 40px;
+}
+
+.fact {
+    font-size: 50px;
+}
